@@ -27,6 +27,6 @@ for i in regnum:
 
 '''
 # Test connect to JunOS
-with Device(host="172.29.154.101", port="22", user="slipko", password="SlipKo89@gmail.com") as dev:
+with Device(host="172.29.154.101", port="22", user="****", password="******") as dev:
     pprint(dev.facts)
 '''
